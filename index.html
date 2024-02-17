@@ -1,0 +1,30 @@
+<h1>DAA Programs</h1>
+
+<ul id="fileList">
+    <li><button onclick="downloadFile('./prog1/MergeSortExperiment.java')">Prog1</button></li>
+    <li><button onclick="downloadFile('./prog2/QuickSortExperiment.java')">Prog2</button></li>
+    <li><button onclick="downloadFile('./prog3/BinarySearchTree.java')">Prog3</button></li>
+    <li><button onclick="downloadFile('./prog4/DirectedGraphBFS.java')">prog4</button></li>
+    <li><button onclick="downloadFile('./prog5/Graph.java')">Prog5a</button></li>
+    <li><button onclick="downloadFile('./prog5/TransitiveClosure.java')">Prog5b</button></li>
+    <li><button onclick="downloadFile('./prog6/DFS.java')">Prog6a</button></li>
+    <li><button onclick="downloadFile('./prog6/FloydWarshall.java')">Prog6b</button></li>
+    <li><button onclick="downloadFile('./prog7/HeapSort.java')">Prog7</button></li>
+    <li><button onclick="downloadFile('./prog8/hsp.java')">Prog8</button></li>
+    <li><button onclick="downloadFile('./prog9/knapsack.java')">Prog9</button></li>
+    <li><button onclick="downloadFile('./prog10/prim.java')">Prog10</button></li>
+    <li><button onclick="downloadFile('./prog11/kruskal.java')">Prog11</button></li>
+    <li><button onclick="downloadFile('./prog12/dij.java')">Prog12</button></li>
+    <li><button onclick="downloadFile('./prog13/tsp.java')">Prog13</button></li>
+    <li><button onclick="downloadFile('./prog14/nq.java')">Prog14</button></li>
+    <li><button onclick="downloadFile('./prog15/set.java')">Prog15</button></li>
+</ul>
+
+<script>
+function downloadFile(filename) {
+    const anchor = document.createElement('a');
+    anchor.href = filename;
+    anchor.download = filename;
+    anchor.click();
+}
+</script>
